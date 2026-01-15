@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Scroll Letter</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <audio id="bg-music" autoplay loop muted preload="auto">
+      <source src="./assets/got-theme.mp3" type="audio/mpeg" />
+    </audio>
+    <div class="sound-gate" id="soundGate">
+  <div class="sound-gate-inner">
+    <div class="sound-title">Enter the Realm</div>
+    <div class="sound-sub">Tap to enable sound</div>
+    <button class="sound-btn" id="soundStartBtn" type="button">Enable Sound</button>
+  </div>
+</div>
+
+
+    <header class="topbar">
+      <div class="brand">A Song of Birthday</div>
+
+      <button class="music-btn" id="musicBtn" type="button" aria-label="Toggle music">
+        <span class="music-dot" aria-hidden="true"></span>
+        <span id="musicLabel">Tap/Scroll to enable sound</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-inner">
+          <h1>Scroll to unseal the letter</h1>
+          <p>Winter may come… but today is yours.</p>
+        </div>
+        <div class="hero-fade"></div>
+      </section>
+      <section class="scene" id="scene">
+        <div class="scene-inner">
+          <div class="letter" id="letter" aria-label="Medieval letter">
+            <div class="wax" id="wax" aria-hidden="true">
+              <div class="wax-sigil" aria-hidden="true"></div>
+            </div>
+
+            <div class="letter-paper" id="paper">
+              <div class="letter-top-ornament" aria-hidden="true"></div>
+
+              <div class="letter-content" id="content">
+                <h2 class="letter-title">Happy Birthday</h2>
+
+                <div class="letter-lines" id="lines">
+  <p class="line">Westerosun uzaq diyarlarından birində,</p>
+  <p class="line">sakit və gözəl bir ailədə bir gün</p>
+  <p class="line">taleyin xüsusi seçdiyi bir uşaq dünyaya gəldi.</p>
+
+  <p class="line">Onun adı <strong>Elnaz</strong> idi.</p>
+
+  <p class="line">Hələ o gün bilmədən,</p>
+  <p class="line">zaman onun yoluna cəsarət, ləyaqət</p>
+  <p class="line">və güclü bir iradə yazırdı.</p>
+
+  <p class="line">İllər keçdikcə Elnaz böyüdü,</p>
+  <p class="line">həyat onu sınaqlardan keçirdi,</p>
+  <p class="line">amma o hər dəfə daha da möhkəmləndi.</p>
+
+  <p class="line">Taxt-tac oyunları artıq başa çatmışdı.</p>
+  <p class="line">Westeros torpaqlarında bir müddətlik sülh hökm sürürdü.</p>
+
+  <p class="line">Qılınclar susmuş, bayraqlar endirilmişdi.</p>
+  <p class="line">Amma hamı bilirdi ki, sülh heç vaxt əbədi olmur.</p>
+
+  <p class="line">Taxt hər zaman insanlar üçün cazibədar olmuşdu.</p>
+  <p class="line">Güc və hakimiyyət yenidən ürəklərdə alovlanırdı.</p>
+
+  <p class="line">Beləcə, Westerosda yeni bir mübarizə başlandı</p>
+  <p class="line">və xalq arasında yalnız bir sual dolaşırdı:</p>
+  <p class="line"><strong>Yeni hökmdar kim olacaq?</strong></p>
+
+  <p class="line">Məhz o anda <strong>Elnaz</strong> özünü sübut etdi.</p>
+  <p class="line">Ağılı, ədaləti və cəsarəti ilə xalqın rəğbətini qazandı.</p>
+
+  <p class="line">O, taxta qılıncla deyil, ləyaqətlə yüksəldi.</p>
+  <p class="line">Qorxu ilə deyil, ümidlə seçildi.</p>
+
+  <p class="line">Və beləliklə, xalqın səsi ilə,</p>
+  <p class="line">ürəklərin istəyi ilə Westerosun yeni hökmdarı olaraq</p>
+  <p class="line">taxta əyləşdi.</p>
+
+  <p class="line">Bu hekayənin qəhrəmanı sənsən, <strong>Elnaz</strong>.</p>
+  <p class="line">Qoy hökmranlığın ədalətli, yolun isə həmişə aydın olsun.</p>
+  <p class="line">Hekayə xoşbəxt sonluqla bitdi.</p>
+  <p class="line">Amma sənin hekayən hələ də davam edir.</p>
+  <p class="line">Ümid edirəm bu həyat yolunda hər şey ürəyincə olar,</p>
+  <p class="line">Həyatın hər daim xoş anlarla dolar</p>
+  <p class="line">Xoş bir ad günü keçirməyin diləyilə ...</p>
+  <p class="line"><strong>Ad günün mübarək mübarək</strong></p>
+  
+  <p class="line">................</p>
+  <p class="line"><strong>.................</strong></p>
+  <p class="line"><strong></strong></p>
+  <p class="line"><strong></strong></p>
+  <p class="line"><strong></strong></p>
+</div>
+
+
+                <div class="letter-sign">
+                  <span class="sign-line">Your friend, Vahid Aliyev</span>
+                  <span class="sign-text">— Your loyal ally</span>
+                </div>
+              </div>
+
+              <div class="letter-bottom-ornament" aria-hidden="true"></div>
+            </div>
+          </div>
+
+          <div class="hint">
+            <span class="hint-dot"></span>
+            <span>Keep scrolling</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="outro">
+        <div class="outro-inner">
+            <br>
+          <h2>🐺 House Stark</h2>
+          <p>Winter may come, but courage endures. <br>
+May you never stray from the path of honor.</p>
+  <br>
+    <br>
+          <h2>🐉 House Targaryen</h2>
+          <p>Fire runs in your blood and power in your fate. <br>
+May your flame never fade.</p>
+  <br>
+    <br>
+          <h2>🦁 House Lannister</h2>
+          <p>May strength stand at your side. <br>
+Let your name leave a lasting mark.</p>
+  <br>  <br>
+          <h2>🌹 House Tyrell</h2>
+          <p>May wisdom and beauty light your way. <br>
+May every season bloom in your favor.</p>
+  <br>  <br>
+          <h2>🐙 House Greyjoy</h2>
+          <p>Be as relentless as the sea <br>
+and as free as the waves.</p>
+  <br>  <br>
+          <h2>🦌 House Baratheon</h2>
+          <p>Let no storm break your spirit. <br>
+For strength lives within you.</p>
+  <br>  <br>
+          <h2>☀️ House Martell</h2>
+          <p>May the sun and courage stand with you. <br>
+Never allow yourself to live in the shadows.</p>
+  <br>  <br>
+          <h2>🐦 House Arryn</h2>
+          <p>Stand above all doubt, <br>
+for the sky is yours to claim.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
